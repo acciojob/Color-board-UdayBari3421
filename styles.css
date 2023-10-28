@@ -16,7 +16,7 @@ body {
 .square {
   width: 2px;
   height: 2px;
-  background-color: rgb(29, 29, 29);
+  background-color: rgb(150, 100, 50);
   transition: background-color 1s ease;
   /* Smooth transition effect */
 }
