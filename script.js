@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // Add event listener for hover effect
     box.addEventListener("mouseenter", function () {
       // Change color on hover
-      box.style.backgroundColor = "rgb(29,29,29)";
+      box.style.backgroundColor = "rgb(255,25,255)";
     });
 
     // Add event listener for smooth transition after 1 second

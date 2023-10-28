@@ -1,24 +1,20 @@
-body {
-  margin: 0;
-  display: flex;
-  height: 100vh;
-  background-color: #f0f0f0;
-}
+
 
 .container {
   display: grid;
   grid-template-columns: repeat(40, 2px);
   grid-template-rows: repeat(40, 2px);
+  height: 16px;
+  width: 16px;
   gap: 0.5px;
-  height: 1600px;
 }
 
 .square {
   width: 2px;
   height: 2px;
-  background-color: rgb(150, 100, 50);
+  background-color: rgb(58, 57, 57);
   transition: background-color 1s ease;
-  /* Smooth transition effect */
+  border: 1px solid black;
 }
 
 .square:hover {
