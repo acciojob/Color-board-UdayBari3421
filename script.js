@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
     box.classList.add("square");
 
     // Add event listener for hover effect
-    box.addEventListener("mouseenter", function () {
+    box.addEventListener("mouseover", function () {
       // Change color on hover
       box.style.backgroundColor = "rgb(255,25,255)";
     });
