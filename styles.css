@@ -1,22 +1,32 @@
-
-
-.container {
-  display: grid;
-  grid-template-columns: repeat(40, 2px);
-  grid-template-rows: repeat(40, 2px);
-  height: 16px;
-  width: 16px;
-  gap: 0.5px;
-}
-
-.square {
-  width: 2px;
-  height: 2px;
-  background-color: rgb(29, 29, 29);
-  transition: background-color 1s ease;
-  border: 1px solid black;
-}
-
-.square:hover {
-  background-color: #e74c3c;
-}
+* {
+    box-sizing: border-box;
+  }
+  
+  body{
+    background: #111;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+  }
+  .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 800px;
+  }
+  .square{
+    background-color: #1d1d1d;
+    box-shadow: 0 0 2px #000;
+    height: 16px;
+    width: 16px;
+    margin: 2px;
+    transition: 5s ease;
+  }
+  
+  .square:hover{
+    transition-duration: 0s;
+  }
